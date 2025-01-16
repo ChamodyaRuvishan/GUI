@@ -1,0 +1,95 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f30e0e, #ff9999); /* Gradient from top to bottom */
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+  }
+  
+  .hero-left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .hero-left h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-left div {
+    margin-bottom: 20px;
+  }
+  
+  .hero-hand-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-hand-icon p {
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .hero-hand-icon img {
+    height: 40px;
+  }
+  
+  .hero-left p {
+    font-size: 1.5em;
+    margin: 5px 0;
+  }
+  
+  .hero-latest-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .hero-latest-btn div {
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  
+  .hero-latest-btn img {
+    height: 30px; /* Adjust height to balance the content */
+  }
+  
+  .hero-latest-btn:hover {
+    background-color: #333;
+    transform: scale(1.05);
+  }
+  
+  .hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .hero-right img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+  }
